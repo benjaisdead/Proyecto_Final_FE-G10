@@ -8,6 +8,17 @@ a:hover{
 a:active{
   color: #F11574;
 }
+/* Basic Styles */
+.main_btn{
+  border: solid 3px #F11574;
+  border-radius: 20px;
+  box-sizing: border-box;
+  padding: 15px;
+  font-size: 1.5em;
+  color: #F11574;
+  font-family: 'Lato';
+  font-weight: 900;
+}
 
 /* Navbar */
 .main_nav {
@@ -39,6 +50,7 @@ a:active{
   font-weight: 900;
   text-decoration: none;
   padding: 0 5px;
+  font-size: 1.2em;
 }
 
 .main_nav__list {
@@ -125,6 +137,11 @@ left: 30px;
   font-size: 2.5em;
   margin-top: 0;
   top: 180px;
+  left: 35px;
+}
+.main_home__btn{
+  position: relative;
+  top: 200px;
   left: 35px;
 }
 
