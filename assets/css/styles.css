@@ -3,11 +3,134 @@ a{
 }
 a:hover{
   color: #F11574;
+  text-decoration: none;
+}
+a:active{
+  color: #F11574;
+}
+
+/* Navbar */
+.main_nav {
+  position: fixed;
+  height: 60px;
+  padding: 10px;
+  background-color: transparent;
+  width: 100%;
+  z-index: 100;
+}
+
+
+.main_nav__hamb-img {
+  width: 1.5rem;
+  height: auto;
+  float: left;
+}
+
+.main_nav__hamb-link {
+  padding: 5px;
+  border: 1px solid white;
+  border-radius: 3px;
+  display: inline-block;
+}
+
+.main_nav__link {
+  color: #FFFFFF;
+  font-family: 'Lato';
+  font-weight: 900;
+  text-decoration: none;
+  padding: 0 5px;
+}
+
+.main_nav__list {
+  border-bottom: 1px solid rgba(255,255,255,.5);
+  padding: 10px;
+  transition: background-color .5s;
+  float: right;
+}
+
+.main_nav__list:last-child {
+  border-bottom: none;
+}
+
+
+.main_nav__elements {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .5s ease-in-out;
+}
+
+ul.main_nav__elements.show {
+  max-height: 500px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+  .main_nav__hamb {
+    display: none;
+  }
+
+  .main_nav__elements {
+    max-height: 200px;
+    text-align: center;
+  }
+
+  .main_nav__list {
+    display: inline-block;
+    border-bottom: none;
+  }
+  .main_nav__list a{
+    float: right;
+  }
+
+/* Home Section */
+.main_home__bg{
+background-image: url(../img/pink-bg.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
+}
+.main_home__logo{
+  position: absolute;
+}
+.main_home__logo-img{
+  max-width: 500px;
+  position: relative;
+  top: 80px;
+  left: 70px;
+}
+.main_home__text{
+position: absolute;
+}
+.main_home__text-name{
+position: relative;
+top: 200px;
+left: 30px;
+}
+.main_home__text h1{
+  position: relative;
+  font-family: 'Lato';
+  font-weight: 900;
+  color: #F11574;
+  font-size: 3em;
+  margin-bottom: 0;
+  top: 180px;
+  left: 35px;
+}
+.main_home__text h2{
+  position: relative;
+  font-family: 'Lato';
+  font-weight: 900;
+  color: #F11574;
+  font-size: 2.5em;
+  margin-top: 0;
+  top: 180px;
+  left: 35px;
 }
 
 /* Footer */
 .footer_container{
-  height: 150px;
+  height: 120px;
   width: 100%;
   background-color: #414141;
   position: absolute;
