@@ -295,12 +295,6 @@ left: 30px;
   margin-top: 0;
 }
 /* Portfolio Items */
-.portfolio_items__text{
-  background-color: #F11574;
-  background-size: cover;
-  width: 100%;
-  height: 50vh;
-}
 .col-lg-6{
   padding: 0;
 }
@@ -337,6 +331,12 @@ text-align: center;
 .portfolio_items__text-btn{
   position: relative;
   top: 50px;
+}
+.portfolio_items__second{
+  background-color: #414141;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
 }
 /* Footer */
 .footer_container{
