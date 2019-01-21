@@ -19,4 +19,14 @@ $(function(){
 		controlNav: false,
 		directionNav: false
   });
+	$('.flexslider2').flexslider({
+		animation: "slide",
+		controlNav: false,
+		directionNav: false
+	});
+	$('.flexslider3').flexslider({
+		animation: "slide",
+		controlNav: false,
+		directionNav: false
+	});
 })
