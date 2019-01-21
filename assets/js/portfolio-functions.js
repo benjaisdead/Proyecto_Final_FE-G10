@@ -14,4 +14,7 @@ $(function(){
     opacity_anim: false,
     step_divider: 1
   });
+	$('.flexslider').flexslider({
+    animation: "slide"
+  });
 })
