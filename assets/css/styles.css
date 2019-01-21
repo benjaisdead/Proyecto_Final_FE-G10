@@ -94,7 +94,7 @@ ul.main_nav__elements.show {
   .main_nav__list a{
     float: right;
   }
-
+/* INICIO - index.html */
 /* Home Section */
 .main_home__bg{
 background-image: url(../img/pink-bg.jpg);
@@ -240,6 +240,52 @@ left: 30px;
   display: block;
   text-align: center;
 }
+/* PORTAFOLIO - portfolio.html */
+/* Home Section */
+.portfolio_home__bg{
+  width: 100%;
+  height: 100vh;
+  background-color: #414141;
+  text-align: center;
+}
+.portfolio_home__logo{
+  display: inline-block;
+}
+.portfolio_home__logo-img{
+  max-width: 250px;
+  display: inline-block;
+  position: relative;
+  top: 80px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio_home__title-img{
+  max-width: 500px;
+  display: block;
+  position: relative;
+  top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.portfolio_home__counter{
+  font-family: 'Lato';
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 1.5em;
+  position: relative;
+  top: 130px;
+  margin-bottom: 0;
+}
+.portfolio_home__counter-text{
+  font-family: 'Lato';
+  color: #FFFFFF;
+  font-weight: 400;
+  font-size: 1.2em;
+  position: relative;
+  top: 130px;
+  margin-top: 0;
+}
+
 
 /* Footer */
 .footer_container{
