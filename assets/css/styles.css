@@ -344,7 +344,7 @@ text-align: center;
   background-color: #F11574;
   background-size: cover;
   width: 100%;
-  height: 100vh;
+  height: 1194px;
 }
 .contact_home__logo{
   display: inline-block;
@@ -506,7 +506,9 @@ form{
   .portfolio_items__third{
     height: 1800px;
   }
-
+  .contact_home__title-img{
+    max-width: 250px;
+  }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -570,6 +572,9 @@ form{
   }
   .footer_container-text{
   text-align: center;
+  }
+  .contact_form{
+    height: 594px;
   }
 }
 @media screen and (max-width: 576px){
