@@ -8,6 +8,9 @@ a:hover{
 a:active{
   color: #F11574;
 }
+h1{
+  margin: 0;
+}
 /* Basic Styles */
 .main_btn{
   border: solid 3px #F11574;
@@ -286,6 +289,7 @@ left: 30px;
 }
 .portfolio_items__text-first{
 text-align: center;
+
 }
 .portfolio_items__text-first h1{
   font-family: 'Lato';
@@ -294,6 +298,7 @@ text-align: center;
   font-size: 3em;
   padding-top: 150px;
 }
+
 .portfolio_items__text-first h2{
   font-family: 'Lato';
   font-weight: 400;
@@ -492,6 +497,16 @@ form{
   .footer_container-text{
   text-align: center;
   }
+  .portfolio_items{
+    height: 1200px;
+  }
+  .portfolio_items__text-first{
+    height: 550px;
+  }
+  .portfolio_items__third{
+    height: 1800px;
+  }
+
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -556,4 +571,18 @@ form{
   .footer_container-text{
   text-align: center;
   }
+}
+@media screen and (max-width: 576px){
+.portfolio_home__logo-img{
+  max-height: 200px;
+}
+.portfolio_home__title-img{
+  max-width: 300px;
+}
+.flexslider3{
+  margin-top: 550px;
+}
+.portfolio_items__third{
+  height: 1200px;
+}
 }
