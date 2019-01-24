@@ -28,4 +28,9 @@ $(function(){
 	percentage: 60,
 	fillBackgroundColor: '#F11574'
 	});
+	  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-132815296-1');
 })

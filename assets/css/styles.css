@@ -86,7 +86,7 @@ ul.main_nav__elements.show {
 /* INICIO - index.html */
 /* Home Section */
 .main_home__bg{
-background-image: url(../img/pink-bg.jpg);
+background-image: url(../images/pink-bg.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 height: 100vh;
@@ -116,7 +116,7 @@ left: 30px;
   color: #F11574;
   font-size: 3em;
   margin-bottom: 0;
-  top: 180px;
+  top: 200px;
   left: 35px;
 }
 .main_home__text h2{
@@ -126,12 +126,12 @@ left: 30px;
   color: #F11574;
   font-size: 2.5em;
   margin-top: 0;
-  top: 180px;
+  top: 200px;
   left: 35px;
 }
 .main_home__btn{
   position: relative;
-  top: 200px;
+  top: 220px;
   left: 35px;
 }
 
@@ -403,7 +403,6 @@ form{
   font-family: 'Lato';
   font-size: 1.2em;
   color: #FFFFFF;
-  padding: 3px;
 }
 
 @media screen and (min-width: 768px) {
@@ -425,7 +424,7 @@ form{
 }
 @media screen and (max-width: 992px) {
   .main_home__bg{
-  background-image: url(../img/pink-bg.jpg);
+  background-image: url(../images/pink-bg.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -454,7 +453,6 @@ form{
   max-width: 276px;
   top: 350px;
   left: 0%;
-  margin: 0;
   padding: 0;
   }
   .main_home__text h1{
@@ -464,7 +462,7 @@ form{
   color: #F11574;
   font-size: 2em;
   margin-bottom: 0;
-  top: 330px;
+  top: 350px;
   left: 0;
   }
   .main_home__text h2{
@@ -513,7 +511,7 @@ form{
 
 @media (min-width: 992px) and (max-width: 1200px) {
   .main_home__bg{
-  background-image: url(../img/pink-bg.jpg);
+  background-image: url(../images/pink-bg.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -552,7 +550,7 @@ form{
   color: #F11574;
   font-size: 2em;
   margin-bottom: 0;
-  top: 330px;
+  top: 350px;
   left: 0;
   }
   .main_home__text h2{
@@ -562,12 +560,12 @@ form{
   color: #F11574;
   font-size: 1.5em;
   margin-top: 0;
-  top: 330px;
+  top: 350px;
   left: 0;
   }
   .main_home__btn{
   position: relative;
-  top: 350px;
+  top: 360px;
   left: 0;
   }
   .footer_container-text{
@@ -590,4 +588,24 @@ form{
 .portfolio_items__third{
   height: 1200px;
 }
+.main_home__text h1{
+  top: 360px;
+}
+.main_home__text h2{
+  top: 360px;
+}
+.main_home__btn{
+  top: 380px;
+}
+}
+@media screen and (max-width: 991px){
+  .main_home__text h1{
+    top: 360px;
+  }
+  .main_home__text h2{
+    top: 360px;
+  }
+  .main_home__btn{
+    top: 380px;
+  }
 }

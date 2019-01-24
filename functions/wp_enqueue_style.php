@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * Style Enqueue
@@ -23,7 +23,12 @@ function dl_enqueue_style() {
 	wp_register_style( 'flexslider', get_theme_file_uri( '/assets/css/flexslider.css'), null, '2.7.1', 'screen' );
 	wp_register_style( 'flickity', get_theme_file_uri( '/assets/css/flickity.css'), null, '2.1.0', 'screen' );
 	wp_register_style( 'fontawesome', get_theme_file_uri( '/assets/css/fontawesome.css'), null, '5.2.0', 'screen' );
-	wp_register_style( 'main_style', get_theme_file_uri( '/assets/css/style.css'), array('reset'), $theme_data->get( 'Version' ), 'screen' );
+
+		wp_register_style( 'bootstrap', get_theme_file_uri( '/assets/css/bootstrap.css'), null, null, 'screen' );
+		wp_register_style( 'flaticon', get_theme_file_uri( '/assets/css/flaticon.css'), null, null, 'screen' );
+		wp_register_style( 'progressbar', get_theme_file_uri( '/assets/css/jquery.lineProgressbar.css'), null, null, 'screen' );
+		wp_register_style( 'fonts', 'https://fonts.googleapis.com/css?family=Lato:300,400,900', null, null, 'screen' );
+		wp_register_style( 'main_styles', get_theme_file_uri( '/assets/css/styles.css'), null, null, 'screen' );
 
 
 	/* Enqueue Styles */
@@ -39,7 +44,11 @@ function dl_enqueue_style() {
 		wp_enqueue_style( 'fontawesome' );
 	}
 
-	wp_enqueue_style( 'main_style' );
+	wp_enqueue_style( 'bootstrap' );
+	wp_enqueue_style( 'flaticon' );
+	wp_enqueue_style( 'progressbar' );
+	wp_enqueue_style( 'fonts' );
+	wp_enqueue_style( 'main_styles' );
 
 }
 
