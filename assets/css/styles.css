@@ -573,6 +573,15 @@ form{
   }
 }
 @media screen and (max-width: 576px){
+.bx-wrapper{
+  margin-top: 0;
+}
+.portfolio_items{
+  height: 800px;
+}
+.portfolio_items__third{
+height: 800px;
+}
 .portfolio_home__logo-img{
   max-height: 200px;
 }
@@ -581,7 +590,7 @@ form{
 }
 
 .portfolio_items__third{
-  height: 1200px;
+  margin-top: 300px;
 }
 .main_home__text h1{
   top: 360px;
@@ -602,5 +611,15 @@ form{
   }
   .main_home__btn{
     top: 380px;
+  }
+  .bx-wrapper{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .portfolio_items__second{
+    height: 1200px;
+  }
+  .portfolio_items__third{
+    height: 1000px;
   }
 }

@@ -21,7 +21,7 @@
 <!-- Portfolio Items -->
 <section class="portfolio_items">
 <div class="col-lg-6 col-md-6 col-sm-12">
-  <div class="bxslider">
+  <div class="bxslider-1">
     <div><img src="<?php bloginfo('template_url') ?>/assets/images/portfolio-slider-acv.jpg"></div>
     <div><img src="<?php bloginfo('template_url') ?>/assets/images/portfolio-slider-acv2.jpg"></div>
     <div><img src="<?php bloginfo('template_url') ?>/assets/images/portfolio-slider-acv3.jpg"></div>
@@ -44,16 +44,17 @@
   </div>
 </div>
 <div class="col-lg-6 col-md-6 col-sm-12">
-  <div class="bxslider">
+  <div class="bxslider-2">
     <div><img src="<?php bloginfo('template_url') ?>/assets/images/portfolio-slider-cle1.jpg"></div>
     <div><img src="<?php bloginfo('template_url') ?>/assets/images/portfolio-slider-cle2.jpg"></div>
     <div><img src="<?php bloginfo('template_url') ?>/assets/images/portfolio-slider-cle3.jpg"></div>
   </div>
 </div>
 </section>
+
 <section class="portfolio_items__third">
 <div class="col-lg-6 col-md-6 col-sm-12">
-  <div class="bxslider">
+  <div class="bxslider-3">
     <div><img src="<?php bloginfo('template_url') ?>/assets/images/portfolio-slider-cc1.jpg"></div>
     <div><img src="<?php bloginfo('template_url') ?>/assets/images/portfolio-slider-cc2.jpg"></div>
     <div><img src="<?php bloginfo('template_url') ?>/assets/images/portfolio-slider-cc3.jpg"></div>

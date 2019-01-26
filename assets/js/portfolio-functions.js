@@ -14,10 +14,22 @@ $(function(){
     opacity_anim: false,
     step_divider: 1
   });
-	$('.bxslider').bxSlider({
+	$('.bxslider-1').bxSlider({
 	  auto: true,
 	  pager: true,
 	  randomStart: true,
+		slideWidth: 600
+	});
+	$('.bxslider-2').bxSlider({
+		auto: true,
+		pager: true,
+		randomStart: true,
+		slideWidth: 600
+	});
+	$('.bxslider-3').bxSlider({
+		auto: true,
+		pager: true,
+		randomStart: true,
 		slideWidth: 600
 	});
 })
