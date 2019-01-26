@@ -34,15 +34,19 @@ function dl_enqueue_scripts() {
 
 
 	/* Register Scripts */
+
 	wp_register_script( 'flickity', get_theme_file_uri('/assets/js/lib/flickity.pkgd.js'), array('jquery-migrate'), '2.1.0', true );
 	wp_register_script( 'flexslider', get_theme_file_uri('/assets/js/lib/jquery.flexslider.js'), array('jquery-migrate'), null, true );
 
-	wp_register_script( 'progressbar', get_theme_file_uri('/assets/js/lib/jquery.lineProgressbar.js'), $deps, null, true );
-	wp_register_script( 'counterup', get_theme_file_uri('/assets/js/lib/jquery.countupcircle.min.js'), $deps, null, true );
-	wp_register_script( 'index-functions', get_theme_file_uri('assets/js/index-functions.js'), $deps, null, true );
-	wp_register_script( 'portfolio-functions', get_theme_file_uri('assets/js/portfolio-functions.js'), $deps, null, true );
-	wp_register_script( 'contact-functions', get_theme_file_uri('assets/js/contact-functions.js'), $deps, null, true );
-	wp_register_script( 'bootstrap', get_theme_file_uri('/assets/js/bootstrap.js'), $deps, null, true );
+	wp_register_script( 'progressbar', get_theme_file_uri('/assets/js/lib/jquery.lineProgressbar.js'), array('jquery-migrate'), null, true );
+	wp_register_script( 'counterup', get_theme_file_uri('/assets/js/lib/jquery.countupcircle.min.js'), array('jquery-migrate'), null, true );
+
+	wp_register_script( 'bootstrap', get_theme_file_uri('/assets/js/bootstrap.js'), array('jquery-migrate'), null, true );
+	wp_register_script( 'bxslider', get_theme_file_uri('/assets/js/lib/jquery.bxslider.js'), $echo, null, true );
+	wp_register_script( 'google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyCA_m00gCN3it7ADJYxXIpX8tVAZGzwnbo&callback=initMap', array('jquery-migrate'), null, true );
+	wp_register_script( 'index-functions', get_theme_file_uri('assets/js/index-functions.js'), array('jquery-migrate'), null, true );
+	wp_register_script( 'portfolio-functions', get_theme_file_uri('assets/js/portfolio-functions.js'), array('jquery-migrate'), null, true );
+	wp_register_script( 'contact-functions', get_theme_file_uri('assets/js/contact-functions.js'), array('jquery-migrate'), null, true );
 
 
 	/* Enqueue Scripts */
@@ -56,12 +60,12 @@ function dl_enqueue_scripts() {
 
 	wp_enqueue_script( 'progressbar' );
 	wp_enqueue_script( 'counterup' );
+	wp_enqueue_script( 'bootstrap' );
+	wp_enqueue_script( 'bxslider' );
+	wp_enqueue_script( 'google-maps' );
 	wp_enqueue_script( 'index-functions' );
 	wp_enqueue_script( 'portfolio-functions' );
 	wp_enqueue_script( 'contact-functions' );
-	wp_enqueue_script( 'bootstrap' );
-
-
 }
 
 add_action( 'wp_enqueue_scripts', 'dl_enqueue_scripts' );

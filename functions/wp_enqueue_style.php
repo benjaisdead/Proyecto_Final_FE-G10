@@ -29,7 +29,7 @@ function dl_enqueue_style() {
 		wp_register_style( 'progressbar', get_theme_file_uri( '/assets/css/jquery.lineProgressbar.css'), null, null, 'screen' );
 		wp_register_style( 'fonts', 'https://fonts.googleapis.com/css?family=Lato:300,400,900', null, null, 'screen' );
 		wp_register_style( 'main_styles', get_theme_file_uri( '/assets/css/styles.css'), null, null, 'screen' );
-
+		wp_register_style( 'bxslider', get_theme_file_uri( '/assets/css/jquery.bxslider.css'), null, null, 'screen' );
 
 	/* Enqueue Styles */
 	if ( $theme_options['slider']['flexslider'] ) {
@@ -49,6 +49,7 @@ function dl_enqueue_style() {
 	wp_enqueue_style( 'progressbar' );
 	wp_enqueue_style( 'fonts' );
 	wp_enqueue_style( 'main_styles' );
+	wp_enqueue_style( 'bxslider' );
 
 }
 

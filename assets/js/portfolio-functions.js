@@ -14,19 +14,10 @@ $(function(){
     opacity_anim: false,
     step_divider: 1
   });
-	$('.flexslider').flexslider({
-    animation: "slide",
-		controlNav: false,
-		directionNav: false
-  });
-	$('.flexslider2').flexslider({
-		animation: "slide",
-		controlNav: false,
-		directionNav: false
-	});
-	$('.flexslider3').flexslider({
-		animation: "slide",
-		controlNav: false,
-		directionNav: false
+	$('.bxslider').bxSlider({
+	  auto: true,
+	  pager: true,
+	  randomStart: true,
+		slideWidth: 600
 	});
 })
