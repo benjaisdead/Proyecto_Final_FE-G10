@@ -362,9 +362,9 @@ text-align: center;
   margin-right: auto;
 }
 #map{
-  width: 100%;
-  height: 100%;
-}
+   height: 180px;
+   margin: 20px;
+ }
 
 .form-group{
   width: 80%;
@@ -382,10 +382,33 @@ label{
 form{
   margin-top: 60px;
 }
+#clientes li{
+  display: inline;
+  float: left;
+  padding: 5px;
+}
+#clientes li img{
+  border-radius: 50%;
+  border: solid 3px #fff;
+  -webkit-filter: blur(1px); /* Safari 6.0 - 9.0 */
+ filter: blur(1px);
+}
+#clientes li img:hover{
+  filter: none;
+}
+.contact_form h1{
+  color: #ffffff;
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.contact_form__inputs{
+  padding-top: 20px;
+}
 
 /* Footer */
 .footer_container{
-  height: 120px;
+  height: 220px;
   width: 100%;
   background-color: #414141;
   position: absolute;
@@ -395,6 +418,7 @@ form{
   font-size: 3.1em;
   text-align: center;
   padding: 10px;
+  margin-top: 40px;
 }
 .footer_container-text p{
   font-family: 'Lato';
@@ -420,6 +444,9 @@ form{
   }
 }
 @media screen and (max-width: 992px) {
+  .footer_container{
+    height: 400px;
+  }
   .main_home__bg{
   background-image: url(../images/pink-bg.jpg);
   background-size:cover;
@@ -513,6 +540,10 @@ form{
   background-repeat: no-repeat;
   background-position: center;
   }
+
+  .footer_container{
+    height: 400px;
+  }
   .main_home__text{
     width: 100%;
     height: 100vh;
@@ -573,6 +604,9 @@ form{
   }
 }
 @media screen and (max-width: 576px){
+  .footer_container{
+    height: 400px;
+  }
 .bx-wrapper{
   margin-top: 0;
 }
@@ -603,6 +637,9 @@ height: 800px;
 }
 }
 @media screen and (max-width: 991px){
+  .footer_container{
+    height: 400px;
+  }
   .main_home__text h1{
     top: 360px;
   }
