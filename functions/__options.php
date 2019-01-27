@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 /**
  * theme_options Variable
@@ -21,7 +21,7 @@ $theme_options = array(
 	'jQuery'				=> true,
 	'fontawesome'			=> true,
 	'menu'					=> array(
-		'button_home'		=> true,
+		'button_home'		=> false,
 		'button_name'		=> 'Home'
 	)
 );

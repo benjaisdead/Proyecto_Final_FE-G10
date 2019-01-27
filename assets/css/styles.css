@@ -61,7 +61,7 @@ h1{
   padding-left: 10px;
 }
 
-.main_nav__link {
+.menu-item {
   color: #F11574;
   font-family: 'Lato';
   font-weight: 900;
@@ -74,7 +74,15 @@ h1{
   max-height: 0;
   overflow: hidden;
   transition: max-height .5s ease-in-out;
+}
+.menu{
   list-style: none;
+  float: right;
+  margin-right: 50px;
+}
+.menu-item{
+  float: left;
+  font-size: 1.5em;
 }
 
 ul.main_nav__elements.show {
@@ -606,6 +614,10 @@ form{
 @media screen and (max-width: 576px){
   .footer_container{
     height: 400px;
+  }
+  .menu-item{
+    float: left;
+    font-size: 1.3em;
   }
 .bx-wrapper{
   margin-top: 0;

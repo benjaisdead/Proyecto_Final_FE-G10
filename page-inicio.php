@@ -1,3 +1,4 @@
+<?php /* Template Name: Inicio */ ?>
 <?php get_header() ?>
   <!-- Home Section -->
 <section class="main_home">

@@ -1,9 +1,5 @@
 /* trigger when page is ready */
 $(function(){
-	$('.main_nav__hamb-link').on('click', function(event) {
-		event.preventDefault();
-		$('.main_nav__elements').toggleClass('show');
-	});
 	$('#main_skills__bar-html').LineProgressbar({
 	percentage: 85,
 	fillBackgroundColor: '#F11574'
