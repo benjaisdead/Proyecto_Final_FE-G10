@@ -5,7 +5,7 @@
   <div class="contact_home_bg col-lg-6">
     <div class="contact_home__logo">
       <img src="<?php bloginfo('template_url') ?>/assets/images/logo.png" class="contact_home__logo-img" alt="Logo Benjamín Ortega">
-      <img src="<?php bloginfo('template_url') ?>/assets/images/contact-title.png" alt="Contacto" class="contact_home__title-img">
+      <img src="<?php bloginfo('template_url') ?>/assets/images/contact-title.png" alt="Contacto" class="blog_home__title-img">
       </div>
   </div>
 </section>
