@@ -8,7 +8,7 @@ http://186.64.118.50/~g10bortega/
 
 # Link al video de funcionamiento
 
-https://youtu.be/qesnbypdsjg
+https://youtu.be/Zlk4I2pyNpw
 
 # Información wp-login
 
